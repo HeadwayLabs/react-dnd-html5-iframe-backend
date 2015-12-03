@@ -1,7 +1,7 @@
 {
-  "name": "react-dnd-html5-backend",
+  "name": "react-dnd-html5-iframe-backend",
   "version": "2.0.0",
-  "description": "HTML5 backend for React DnD",
+  "description": "Temporary workaround to make HTML5 backend for React DnD work inside iframe",
   "main": "lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
@@ -18,12 +18,8 @@
     "type": "git",
     "url": "https://github.com/gaearon/react-dnd-html5-backend.git"
   },
-  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "author": "Ilya Gelman <ilyagelman@ilyagelman.com> (http://github.com/ilyagelman)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gaearon/react-dnd-html5-backend/issues"
-  },
-  "homepage": "https://github.com/gaearon/react-dnd-html5-backend",
   "devDependencies": {
     "babel": "^5.8.23",
     "babel-eslint": "^4.1.3",
